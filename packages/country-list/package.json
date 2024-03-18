@@ -1,5 +1,5 @@
 {
-  "name": "@3plearning/field-editor-country-list",
+  "name": "@3plearning/country-list-field-editor",
   "version": "0.0.1",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -19,7 +19,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/3plearning/field-editors/tree/country-list/main/packages/country-list"
+    "url": "https://github.com/3plearning/country-list-field-editor"
   },
   "scripts": {
     "watch": "yarn concurrently \"yarn:watch:*\"",
