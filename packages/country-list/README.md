@@ -1,4 +1,4 @@
-# @3plearning/field-editor-country-list
+# @contentful/field-editor-country-list
 
 ```bash
 npm install @3plearning/field-editor-country-list
