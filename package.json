@@ -32,7 +32,9 @@
     "prepare": "husky install"
   },
   "workspaces": [
-    "packages/**"
+    "packages/_shared",
+    "packages/_test",
+    "packages/country-list"
   ],
   "devDependencies": {
     "@babel/core": "7.9.6",
