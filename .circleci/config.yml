@@ -120,7 +120,7 @@ workflows:
           context: vault
           filters:
             branches:
-              only: master
+              only: 'country-list/main'
           requires:
             - lint
             - unit-tests
