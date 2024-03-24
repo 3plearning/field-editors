@@ -40,15 +40,15 @@
     "@contentful/field-editor-shared": "^1.4.6",
     "emotion": "^10.0.17",
     "i18n-iso-countries": "^7.10.1",
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.15",
+    "react-select": "^5.8.0"
   },
   "devDependencies": {
     "react-select-event": "^5.5.1",
     "@contentful/field-editor-test-utils": "^1.4.7"
   },
   "peerDependencies": {
-    "react": ">=16.8.0",
-    "react-select": "^5.8.0"
+    "react": ">=16.8.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
