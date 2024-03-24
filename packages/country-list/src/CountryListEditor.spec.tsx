@@ -94,30 +94,4 @@ describe('CountryListEditor', () => {
     expect(field.removeValue).toHaveBeenCalledTimes(1);
     expect(field.setValue).toHaveBeenCalledTimes(2);
   });
-
-  it.skip('keeps trailing commas', () => {
-    const [field] = createFakeFieldAPI(
-      (field) => {
-        jest.spyOn(field, 'setValue');
-        return {
-          ...field,
-          validations: [],
-        };
-      },
-      ['CL']
-    );
-
-    const renderResult = render(
-      <CountryListEditor
-        field={field}
-        locales={createFakeLocalesAPI()}
-        isInitiallyDisabled={false}
-      />
-    );
-
-    changeInputValue(renderResult, 'CL,');
-
-    expect(field.setValue).toHaveBeenLastCalledWith(['CL']);
-    expectInputValue(renderResult, 'CL,');
-  });
 });
