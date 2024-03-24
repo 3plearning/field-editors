@@ -11,11 +11,11 @@ registries:
 
 updates:
   - package-ecosystem: npm
-    directory: '/'
+    directory: '/packages/country-list'
     schedule:
       interval: weekly
-    open-pull-requests-limit: 10
-    target-branch: master
+    open-pull-requests-limit: 5
+    target-branch: 'country-list/main'
     labels:
       - dependencies
       - dependabot
@@ -25,4 +25,4 @@ updates:
       - npm-registry-registry-npmjs-org
       - npm-github
     reviewers:
-      - 'contentful/team-tolkien'
+      - '3plearning/dependabot-reviews'
